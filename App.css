@@ -1,0 +1,48 @@
+body{
+  background-image: url('../public/background.jpg');
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+}
+.headerContainer{
+  padding: 2%;
+}
+img{
+  width: 100%;
+}
+ main{
+  padding: 2%;
+ }
+ .content{
+  padding: 2%;
+ }
+ 
+ section.videobox {
+  margin: 10px;
+}
+
+ section.fecha {
+  width: 50%;
+  display: flex;
+  align-content: center;
+  margin: 10px auto;
+}
+
+section.cafe {
+  width: 30%;
+  margin: 10px auto;
+}
+section.direccion {
+  width: 60%;
+  margin: 0 auto;
+}
+
+section.botton {
+  width: 50%;
+  margin: 15px auto;
+}
+
+section.codigodevestimenta {
+  width: 50%;
+  margin: 0 auto 50px;
+}
