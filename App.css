@@ -2,7 +2,7 @@ body{
   background-image: url('./background.jpg');
   padding: 0;
   margin: 0;
-  background-size: cover;
+  background-size: 105% auto;
 }
 .headerContainer{
   padding: 2%;
@@ -11,7 +11,7 @@ img{
   width: 100%;
 }
  main{
-  padding: 7%;
+  padding: 3%;
  }
  .content{
   padding: 2%;
@@ -44,5 +44,5 @@ section.botton {
 
 section.codigodevestimenta {
   width: 50%;
-  margin: 0 auto 50px;
+  margin: 0 auto 25px;
 }
