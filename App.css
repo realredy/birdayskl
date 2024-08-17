@@ -2,7 +2,7 @@ body{
   background-image: url('./background.jpg');
   padding: 0;
   margin: 0;
-  background-size: 105% auto;
+  background-size: contain;
 }
 .headerContainer{
   padding: 2%;
