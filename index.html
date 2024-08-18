@@ -21,15 +21,17 @@
           // vol.play()
         } 
 
-      window.onLoad = () =>{
-        console.log('hola')
-        // if(document.getElementById("unMutedSignal")){
-        //   const flechita = document.getElementById("unMutedSignal");
-        //       flechita.addEventListener('click', ()=>{
-        //         alert('hello word...')
-        //       })
-        // }
-      }
+    
+         window.addEventListener("load", function (event) {
+    if(document.getElementById("unMutedSignal")){
+          const flechita = document.getElementById("unMutedSignal");
+              flechita.addEventListener('click', ()=>{
+                alert('hello word...')
+              })
+        }
+  });
+        
+     
          
     </script>
   </head>
