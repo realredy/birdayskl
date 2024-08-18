@@ -4,6 +4,9 @@ body{
   margin: 0;
   background-size: contain;
 }
+#myVideo {
+  margin-bottom: 40px;
+}
 .headerContainer{
   padding: 2%;
 }
