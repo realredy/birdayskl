@@ -46,3 +46,30 @@ section.codigodevestimenta {
   width: 50%;
   margin: 0 auto 25px;
 }
+
+
+.videobox{
+  position: relative;
+}
+.videobox div { 
+  position: absolute;
+  right: 0;
+  top: -30px;
+  height: 25px;
+  width: 15px
+}
+.videobox div img{
+  width: 12px;
+  animation: animateFlechita .4s infinite;
+}
+@keyframes animateFlechita {
+  from {
+    transform: translateY(0%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(50%);
+    opacity: 1
+  }
+}
