@@ -14,24 +14,16 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> 
     <title>Cumpleaños </title>
     <script>
-      const vol = document.getElementById('myVideo'); 
-        if(vol){
-          console.log(vol)
-          // vol.volume = 0.2 
-          // vol.play()
-        } 
-
-    
-         window.addEventListener("load", function (event) {
-    if(document.getElementById("unMutedSignal")){
-          const flechita = document.getElementById("unMutedSignal");
-              flechita.addEventListener('click', ()=>{
-                alert('hello word...')
-              })
-        }
-  });
-        
-     
+   let cit = setInterval(()=>{
+  var video = document.getElementById('myVideo');
+  var flc = document.getElementById('unMutedSignal')
+  console.log('active')
+    if(video.muted == false){
+      flc.style.display = 'none'
+      clearInterval(cit)
+    }
+ 
+},1000)
          
     </script>
   </head>
